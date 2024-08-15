@@ -1,0 +1,145 @@
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    gap: 20px;
+    z-index: 1000;
+}
+
+.sections {
+    gap: 20px;
+    flex: 3;  /* 75% of the container */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.explore-card-grid {
+    flex: 1; /* 25% of the container */
+}
+
+.section {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+
+.card-grid {
+    position: relative;
+    top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    width: 800px;
+    margin: 10 auto;
+    columns: 3;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.explore-card-grid {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.card {
+    background: #F8F8F8;
+    border-radius: 8px;
+    position: relative;
+    padding: 15px;
+    width: 200px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.card-image {
+    background: #E0E0E0;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    position: absolute;
+    top: 160px;
+    font-size: 16px;
+    margin-bottom: 10px;
+} 
+
+.progress-bar {
+    background: #E0E0E0;
+    height: 4px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background: #1E90FF;
+    height: 100%;
+    border-radius: 2px;
+}
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+}
+
+.button {
+    background: #1E90FF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+.button:hover {
+    font-size: 15px;
+    word-spacing: 5px;
+}
+
+.button.secondary {
+    background: #FFA500;
+}
+
+.search-button {
+    background: #FFA500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+} 
+
+.search-button:hover {
+    font-size: 17px;
+    word-spacing: 5px;
+}
+

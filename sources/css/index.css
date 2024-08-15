@@ -1,0 +1,158 @@
+  /* Main Content Styles */
+/* body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+  overflow:auto;
+  z-index: 990;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  top: 60px;
+}
+
+.start-button {
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 40px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.start-button:hover {
+    background-color: #FF8C00;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+h1 span {
+    font-size: 44px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.subtitle span {
+    font-size: 28px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+
+.features {
+    font-size: 14px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.language-tags .language-tag-row1 {
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.language-tags .language-tag-row2 {
+  display: flex;
+  justify-content: center;
+  margin-right: 150px;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.language-tags .language-tag-row3 {
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.language-tag {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 25px 45px;
+    border-radius: 40px;
+    font-size: 18px;
+}
+
+.language-tag:hover {
+    transform: scale(1.2);
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info-box h3 {
+    font-size: 24px;
+    margin: 0;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.info-box p {
+    font-size: 18px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.info-box img {
+    width: 400px;
+    height: 210px;
+    margin:30px;
+}
+
+.info-box img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+/* Footer Styles */
+
+.custom-hr {
+  border: none;
+  border-top: 1px solid #ffffff;
+  margin: 0;
+}
+
+.footer-container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container span {
+    margin: 0 60px;
+}
+
+.footer-container a {
+    margin-left: 5px;
+}
+
+.footer-container ion-icon {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}

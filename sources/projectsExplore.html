@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewards</title>
+    <link rel="stylesheet" href="./css/registerLogin.css">
+    <link rel="stylesheet" href="./css/headerBar.css">
+    <link rel="stylesheet" href="./css/letterRain.css">
+    <link rel="stylesheet" href="./css/projectsExplore.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+    <script src="./js/insertHeader.js"></script>
+    <script src="./js/insertForm.js"></script>
+    <script src="./js/loginModal.js" defer></script>
+    <script src="./js/letterRain.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="请输入">
+            <button class="search-button">搜索</button>
+        </div>
+        <div class="categories">
+            <span class="category" tabindex="0" onclick="handleClick('Python')">Python</span>
+            <span class="category" tabindex="1" onclick="handleClick('JavaScript')">JavaScript</span>
+            <span class="category" tabindex="2" onclick="handleClick('TypeScript')">TypeScript</span>
+            <span class="category" tabindex="3" onclick="handleClick('Golang')">Golang</span>
+            <span class="category" tabindex="4" onclick="handleClick('Rust')">Rust</span>
+            <span class="category" tabindex="5" onclick="handleClick('Solidity')">Solidity</span>
+            <span class="category" tabindex="6" onclick="handleClick('HTML')">HTML</span>
+            <span class="category" tabindex="7" onclick="handleClick('CSS')">CSS</span>
+            <div class="dropdown">
+                <button class="dropbtn">全部 ▼</button>
+                <div class="dropdown-content">
+                    <a href="#">全部</a>
+                    <a href="#">已完成</a>
+                    <a href="#">未完成</a>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button study">开始学习</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button study">开始学习</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button completed">已完成</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button study">开始学习</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button completed">已完成</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button completed">已完成</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button completed">已完成</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button completed">已完成</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button completed">已完成</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button completed">已完成</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button completed">已完成</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button completed">已完成</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3 class="card-title">简易计算器</h3>
+                    <p class="card-description">本项目用于掌握基础的算式方法</p>
+                    <div class="card-tags">
+                        <span class="tag">+ - * /</span>
+                        <span class="tag">类型转换</span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="difficulty">
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                        <button class="button completed">已完成</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat the card structure 7 more times, alternating between "已完成" and "学习" buttons -->
+        </div>
+    </div>
+</body>
+</html>

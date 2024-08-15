@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+#rain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 910;
+}
+.raindrop {
+    position: absolute;
+    color: #0f0;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 15px #0f0;
+    animation: fall linear;
+}
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}

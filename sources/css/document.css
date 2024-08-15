@@ -1,0 +1,145 @@
+.container {
+    /* padding: 60px 20px 20px; */
+    /* height: 850vh; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 990;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    margin-bottom: 50px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+    margin-top: 15px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.search-bar {
+    width: 60%;
+    max-width: 600px;
+    padding: 10px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    font-size: 16px;
+    position: absolute;
+    display: center;
+}
+.search-button {
+    position: relative;
+    justify-content: center;
+    right: -260px;
+    top: 1px;
+    height: 55px;
+    width: 90px;
+    background-color: #39f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: -330px;
+    margin: 0 auto;
+    top: -60px;
+}
+
+.categories:hover {
+    cursor: pointer;
+}
+
+.categories:focus {
+    text-decoration: underline;
+}
+
+.category {
+    margin-right: 20px;
+}
+
+.grid {
+    position: relative;
+    top: -40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 20px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.card-image {
+    height: 120px;
+    background-color: #ddd;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+}
+
+
+.card-content p {
+    padding-top: 0px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    text-align: left;
+    padding: 10px;
+}
+
+
+.contribute {
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 40px;
+    font-size: 18px;
+    margin: 30px;
+    margin-bottom: 80px;
+}
+
+.contribute:hover {
+    background-color: #FF8C00;
+    cursor: pointer;
+    transform: scale(1.1);
+}

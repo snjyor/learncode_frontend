@@ -1,0 +1,93 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 60px 10px 20px 50px;
+    box-sizing: border-box;
+    /* display: grid; */
+    gap: 20px;
+    z-index: 990;
+    position: relative;
+    justify-content: center;
+    top: 60px;
+    margin-bottom: 150px;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.price-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.price-card {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.price-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.price-card h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+.price-card p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.price-card h4 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #1E90FF;
+    color: #fff;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0d81f5;
+    color: #fff;
+    transform: scale(1.05);
+}
