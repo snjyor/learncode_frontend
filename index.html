@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title langs="title">LearnCode|Project-driven, demand-oriented programming learning platform</title>
     <link rel="stylesheet" href="./sources/css/index.css">
     
     <link rel="stylesheet" href="./sources/css/registerLogin.css">
@@ -13,15 +13,19 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
     <script src="./sources/js/insertHeader.js"></script>
     <script src="./sources/js/insertForm.js"></script>
+    <script src="./sources/js/languages.js"></script>
+    <script src="./sources/js/languageSwitch.js"></script>
+    <script type="module" src="./sources/js/projectExercises.js"></script>
     <script src="./sources/js/loginModal.js" defer></script>
     <script src="./sources/js/letterRain.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <button class="start-button">开始学习</button>
-        <h1><span>项目驱动</span>的编程学习平台</h1>
-        <p class="subtitle">从零开始，掌握<span>全新</span>编程语言</p>
-        <p class="features">项目实战 | 内嵌编辑器 | 在线调试 | 逐步引导</p>
+        <button class="start-button" langs="startLearning" onclick="myProjects()">Start Learning</button>
+        <h1><span langs="target">Project-Driven  Demand-Oriented</span></h1>
+        <p class="subtitle" langs="subtitle">Master new programming languages from scratch</p>
+        <!-- <p class="subtitle" langs="slogan">远离刷题痛苦，用实际需求点燃编程学习的动力</p> -->
+        <p class="features" langs="description">Project-based | Built-in Editor | Online Debugging | Step-by-step Guidance</p>
         <div class="language-tags">
             <p class="language-tag-row1">
                 <span class="language-tag">Python</span>
@@ -31,41 +35,46 @@
             <p class="language-tag-row2">
                 <span class="language-tag">Golang</span>
                 <span class="language-tag">Rust</span>
-                <span class="language-tag">HTML</span>
+                <span class="language-tag">HTML&CSS</span>
             </p>
             <p class="language-tag-row3">
-                <span class="language-tag">CSS</span>
                 <span class="language-tag">Solidity</span>
-                <span class="language-tag">Move</span>
+                <span class="language-tag">NodeJS</span>
+                <span class="language-tag">React</span>
             </p>
         </div>
         <div class="info-boxes">
             <div class="info-box">
-                <h3>项目驱动学习</h3>
-                <p>通过实际项目学习，将理论知识以应用于实践中</p>
-                <img src="./sources/images/placeholder.png" alt="">
+                <h3 langs="projectDriven">Demand-Oriented Learning</h3>
+                <p langs="projectDescription">Learn through actual requirements, apply theoretical knowledge to practice</p>
+                <img src="./sources/images/placeholder2.png" alt="">
             </div>
             <div class="info-box">
-                <h3>在线开发环境</h3>
-                <p>内嵌终端和在线调试工具，随时随地编写和测试代码</p>
-                <img src="./sources/images/placeholder.png" alt="">
+                <h3 langs="onlineEnv">Online Development Environment</h3>
+                <p langs="onlineEnvDescription">Built-in terminal and online debugging tools, code and test anytime, anywhere</p>
+                <img src="./sources/images/placeholder3.png" alt="">
             </div>
             <div class="info-box">
-                <h3>详细注释引导</h3>
-                <p>逐步引导，详尽注释，助你轻松完成每个项目</p>
-                <img src="./sources/images/placeholder.png" alt="">
+                <h3 langs="detailedGuide">Detailed Commentary Guidance</h3>
+                <p langs="detailedGuideDescription">Step-by-step guidance with detailed comments to help you complete each project easily</p>
+                <img src="./sources/images/placeholder4.png" alt="">
             </div>
         </div>
-        <!-- <hr class="custom-hr"> -->
         <div class="footer-container">
-            <p>
+            <p> 
                 <span>
-                    Powered by <a href="https://www.github.com/altforever">snjyor</a>
+                    Powered by:<a href="https://www.github.com/altforever">snjyor</a>
                 </span>
                 <span>
                     Feedback:
                     <a href="mailto:altforever18@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
                     <a href="https://www.discord.com"><ion-icon name="logo-discord"></ion-icon></a>
+                </span>
+                <span>
+                    <select name="language" id="language" onchange="languagesChanged()">
+                        <option value="en">English</option>
+                        <option value="zh-CN">中文</option>
+                    </select>
                 </span>
             </p>
         </div>

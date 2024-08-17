@@ -13,23 +13,26 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
     <script src="./js/insertHeader.js"></script>
     <script src="./js/insertForm.js"></script>
+    <script src="./js/languages.js"></script>
+    <script src="./js/languageSwitch.js"></script>
     <script src="./js/loginModal.js" defer></script>
     <script src="./js/letterRain.js" defer></script>
 </head>
   <body>
     <div class="container">
       <div class="search-container">
-          <input type="text" class="search-bar" placeholder="请输入">
-          <button class="search-button">搜索</button>
+          <input type="text" class="search-bar" placeholder="">
+          <button class="search-button" langs="search">搜索</button>
       </div>
       <div class="categories">
-          <span class="category" tabindex="0" onclick="handleClick('编程语言')">编程语言</span>
-          <span class="category" tabindex="1" onclick="handleClick('数据库')">数据库</span>
-          <span class="category" tabindex="2" onclick="handleClick('工具库')">工具库</span>
-          <span class="category" tabindex="3" onclick="handleClick('机器学习')">机器学习</span>
-          <span class="category" tabindex="4" onclick="handleClick('深度学习')">深度学习</span>
-          <span class="category" tabindex="5" onclick="handleClick('AI大模型')">AI大模型</span>
-          <span class="category" tabindex="6" onclick="handleClick('Web3')">Web3</span>
+          <span class="category" tabindex="0" onclick="handleClick('编程语言')" langs="programmingLanguages">编程语言</span>
+          <span class="category" tabindex="1" onclick="handleClick('数据库')" langs="databases">数据库</span>
+          <span class="category" tabindex="2" onclick="handleClick('工具库')" langs="toolkits">工具库</span>
+          <span class="category" tabindex="3" onclick="handleClick('机器学习')" langs="machineLearning">机器学习</span>
+          <span class="category" tabindex="4" onclick="handleClick('深度学习')" langs="deepLearning">深度学习</span>
+          <span class="category" tabindex="5" onclick="handleClick('AI大模型')" langs="AIModels">AI大模型</span>
+          <span class="category" tabindex="6" onclick="handleClick('Web3')" langs="Web3">Web3</span>
+          <span class="category" tabindex="7" onclick="handleClick('other')" langs="other">其他</span>
       </div>
       <div class="grid">
         <div class="card">
@@ -111,7 +114,7 @@
           </div>
         </div>
       </div>
-      <button class="contribute">贡献文档</button>
+      <button class="contribute" langs="contributedoc">贡献文档</button>
     </div>
   </body>
 </html>

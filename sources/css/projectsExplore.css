@@ -1,3 +1,7 @@
+.container::-webkit-scrollbar {
+    display: none;
+  }
+
 .container {
     /* padding: 60px 20px 20px; */
     /* height: 850vh; */
@@ -9,7 +13,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 80px;
+    top: 60px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .search-container {

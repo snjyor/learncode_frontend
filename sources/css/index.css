@@ -1,17 +1,21 @@
-  /* Main Content Styles */
+body {
+  letter-spacing: 1px;
+}
+
+/* Main Content Styles */
   .container::-webkit-scrollbar {
     display: none;
   }
   
   .container {
     text-align: center;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     overflow:auto;
     z-index: 980;
     position: relative;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     top: 60px;
     padding-bottom: 60px;
   }
@@ -30,39 +34,63 @@
   .start-button:hover {
       background-color: #FF8C00;
       cursor: pointer;
-      letter-spacing: 5px;
+      /* letter-spacing: 5px; */
+  }
+
+  .chinese .start-button:hover{
+    letter-spacing: 5px;
   }
   
   h1 span {
       font-size: 44px;
-      letter-spacing: 10px;
+      /* letter-spacing: 10px; */
+  }
+
+  .chinese h1 span {
+    letter-spacing: 10px;
   }
   
   h1 {
       font-size: 28px;
       margin-bottom: 10px;
       padding: 15px;
-      letter-spacing: 10px;
+      /* letter-spacing: 10px; */
+  }
+
+  .chinese h1 {
+    letter-spacing: 10px;
   }
   
   .subtitle span {
       font-size: 28px;
-      letter-spacing: 10px;
+      /* letter-spacing: 10px; */
+  }
+
+  .chinese .subtitle span {
+    letter-spacing: 10px;
   }
   
   .subtitle {
       font-size: 18px;
       margin-bottom: 20px;
       padding: 15px;
-      letter-spacing: 10px;
+      /* letter-spacing: 10px; */
+  }
+
+  .chinese .subtitle {
+    letter-spacing: 10px;
   }
   
   
   .features {
       font-size: 18px;
       margin-bottom: 20px;
-      letter-spacing: 10px;
+      /* letter-spacing: 10px; */
       margin-bottom: 100px;
+  }
+
+  .chinese .features {
+    letter-spacing: 10px;
   }
   
   .language-tags .language-tag-row1 {
@@ -111,7 +139,11 @@
       margin: 28px;
       justify-content: space-between;
       margin-top: 50px;
-      letter-spacing: 10px;
+      /* letter-spacing: 10px; */
+  }
+
+  .chinese .info-box h3 {
+    letter-spacing: 10px;
   }
   
   .info-box p {
@@ -119,7 +151,11 @@
       margin: 0;
       justify-content: space-between;
       margin-bottom: 15px;
-      letter-spacing: 8px;
+      /* letter-spacing: 8px; */
+  }
+
+  .chinese .info-box p {
+    letter-spacing: 8px;
   }
   
   .info-box img {

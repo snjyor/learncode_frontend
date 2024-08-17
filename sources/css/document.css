@@ -1,6 +1,12 @@
+body.hidden.hydrated {
+    visibility: hidden !important;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+  }
+
 .container {
-    /* padding: 60px 20px 20px; */
-    /* height: 850vh; */
     height: 100%;
     width: 100%;
     box-sizing: border-box;
