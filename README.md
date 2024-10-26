@@ -1,5 +1,5 @@
 # LearnCode
-
+在线静态页面：https://snjyor.github.io/learncode_frontend/
 LearnCode是一个项目驱动、需求导向的编程学习平台。通过实际项目和需求,帮助学习者从零开始掌握新的编程语言。
 
 ## 技术栈
@@ -37,14 +37,14 @@ HTML, CSS, JavaScript
 
 ## 项目页面
 #### 主页
-![主页](./sources/images/readme/1.png)
+![主页](./images/readme/1.png)
 #### 我的学习
-![我的学习](./sources/images/readme/2.png)
+![我的学习](./images/readme/2.png)
 #### 练习页面
-![练习页面](./sources/images/readme/3.png)
+![练习页面](./images/readme/3.png)
 #### 项目探索
-![项目探索](./sources/images/readme/4.png)
+![项目探索](./images/readme/4.png)
 #### 文档库
-![文档库](./sources/images/readme/5.png)
+![文档库](./images/readme/5.png)
 #### 个人中心
-![个人中心](./sources/images/readme/6.png)
+![个人中心](./images/readme/6.png)

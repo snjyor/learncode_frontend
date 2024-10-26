@@ -13,7 +13,7 @@ const envKeys = Object.keys(env).reduce((prev, next) => {
 }, {});
 
 const commonConfig = {
-    entry: './sources/js/projectExercises.js',
+    entry: './js/projectExercises.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js'

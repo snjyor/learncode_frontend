@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log("我在insertHeader.js中，当前语言是：", initLanguage);
     nav.appendChild(logo);
     if (document.location.pathname.endsWith('index.html')) {
-        sourceDir = '/sources';
+        sourceDir = '';
         logo.innerHTML = '<a href="./index.html">LearnCode</a>';
     } else {
         sourceDir = '';
