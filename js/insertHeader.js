@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.appendChild(logo);
     if (document.location.pathname.endsWith('index.html')) {
         sourceDir = '';
-        logo.innerHTML = '<a href="./index.html">LearnCode</a>';
+        logo.innerHTML = `<a href="${sourceDir}/index.html">LearnCode</a>`;
     } else {
         sourceDir = '';
-        logo.innerHTML = '<a href="../index.html">LearnCode</a>';
+        logo.innerHTML = `<a href="${sourceDir}/index.html">LearnCode</a>`;
     }
     
     ul = document.createElement('ul');
